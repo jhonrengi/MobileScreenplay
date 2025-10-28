@@ -1,7 +1,8 @@
 # language: es
-Característica: Inicio  a la aplicacion exito
+Característica: Inicio de sesión con credenciales válidas
 
-  Escenario: Registrarse de forma correcta
-    Dado que el usuario abre la aplicacion exito "jhon"
-    Cuando El usuario se registra en la aplicacion
-    Entonces El usuario visualiza su informacion
+  Escenario: Verificar que el usuario pueda iniciar sesión con credenciales válidas
+    Dado que el usuario está en la pantalla de inicio de sesión
+    Cuando El usuario ingrersa
+    Entonces El usuario accede correctamente a la plataforma
+

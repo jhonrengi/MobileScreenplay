@@ -5,23 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd0d924-bcf5-4337-9222-673092cf0396" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/exito/tasks/CalculadorasTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/exito/ui/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/app/exito/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/app/exito/stepDefinitions/SumarStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/registro.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/compensar/tasks/AbrirLaAplicacionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/compensar/tasks/InicioSesionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/compensar/ui/InicioSesion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/exito/questions/MiCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/compensar/questions/MiCuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/exito/tasks/RegistroTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/compensar/tasks/RegistroTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/exito/tasks/VerificacionTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/compensar/tasks/VerificacionTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/exito/ui/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/compensar/ui/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/app/exito/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/compensar/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/app/exito/stepDefinitions/RegistroStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/compensar/stepDefinitions/RegistroStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/iniciarSesion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/iniciarSesion.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="PruebaMovil" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PruebaMovil" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PruebaMovil" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="serenity bdd" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -73,7 +81,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/",
+    "last_opened_file_path": "C:/Users/JhonSebastianRengifo/Downloads/ProyectoLoginBilletera/ProyectoLoginBilletera",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -85,8 +93,8 @@
       <recent name="app.calcualdora.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Runner (3)">
-    <configuration name="PruebaMovil [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Runner (4)">
+    <configuration name="MobileScreenplay [reports]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -97,7 +105,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value="reports" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,7 +188,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Runner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Runner (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,7 +201,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Runners.Runner&quot;" />
+            <option value="&quot;app.compensar.runners.Runner&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Runner (4)" />
+        <item itemvalue="Gradle.MobileScreenplay [reports]" />
         <item itemvalue="Gradle.Runner (3)" />
         <item itemvalue="Gradle.Runner (2)" />
         <item itemvalue="Gradle.Runner (1)" />
-        <item itemvalue="Gradle.Runner" />
-        <item itemvalue="Gradle.PruebaMovil [test]" />
       </list>
     </recent_temporary>
   </component>
